@@ -17,6 +17,7 @@ Architecture: all
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Replaces: golang-goconfigparser-dev (<< 0.2-0ubuntu3~)
 Breaks: golang-goconfigparser-dev (<< 0.2-0ubuntu3~)
+Multi-Arch: foreign
 Description: Python compatible INI parser
  This parser is build as a go equivalent of the Python ConfigParser
  module and is aimed for maximum compatibility for both the file format
